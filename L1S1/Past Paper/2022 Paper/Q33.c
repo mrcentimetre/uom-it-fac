@@ -1,7 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int SumOfBday(int bday);
+int SumOfBday (int bday){
+    
+    int sum;
+
+    if (bday == 0){
+        return 0;
+    } else {
+        sum = bday%10 + SumOfBday(bday/10);
+    }
+    return sum;
+
+}
 
 int main(){
 
@@ -21,18 +32,4 @@ int main(){
     } else {
         printf("Try again later");
     }
-    
-}
-
-int SumOfBday (int bday){
-    
-    int sum;
-
-    if (bday == 0){
-        return 0;
-    } else {
-        sum = bday%10 + SumOfBday(bday/10);
-    }
-    return sum;
-
 }
