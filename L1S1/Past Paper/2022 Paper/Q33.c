@@ -32,4 +32,8 @@ int main(){
     } else {
         printf("Try again later");
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4e55ac9ecec23d256c3ac76a3819c894e72e6d20
