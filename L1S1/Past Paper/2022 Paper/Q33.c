@@ -26,12 +26,12 @@ int main(){
 
 int SumOfBday (int bday){
     
-    int sum = 0;
+    int sum;
 
-    while (bday!=0)
-    {
-        sum += bday%10;
-        bday = bday/10;
+    if (bday == 0){
+        return 0;
+    } else {
+        sum = bday%10 + SumOfBday(bday/10);
     }
     return sum;
 
