@@ -16,7 +16,7 @@ List of academic level for which code is available:
 
 1. [L1S1](/L1S1)
 2. [L1S2](/L1S2)
-   - HTML Web PAge
+   - HTML Web PAge - [View Web Page](https://mrcentimetre.github.io/uom-it-fac/L1S2/Web%20Technologies/Lab%20Sheet%201/)
    - CSS Web Page - [View Web Page](https://mrcentimetre.github.io/uom-it-fac/L1S2/Web%20Technologies/CSS%20Lab%20Sheet%202/)
 
 ## Projects
